@@ -1,15 +1,22 @@
 {
   "name": "palindrome",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple palindrome checker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "Palindrome"
+    "url": "https://github.com/XavierLeon/Palindrome"
   },
   "author": "Xavier Leon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.22"
+  }
 }
